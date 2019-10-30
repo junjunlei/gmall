@@ -1,6 +1,5 @@
 ####电商商城项目
 
-
 #####所用技术
 * SpringBoot 
 * zookeeper注册中心+Dubbo
@@ -16,3 +15,5 @@
 * Redis秒杀 
 * Redis分布式锁, 集群搭建, 分布式, sku,spu表结构
 
+
+用户服务端口 8080
