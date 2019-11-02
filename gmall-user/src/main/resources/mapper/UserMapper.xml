@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="org.jerry.gmall.user.mapper.UserMapper">
-
+    <select id="selectAllUser" resultType="org.jerry.gmall.user.bean.UmsMember">
+    SELECT
+    ums_member.id,
+    ums_member.member_level_id,
+    ums_member.username,
+    ums_member.password,
+    ums_member.nickname,
+    ums_member.phone,
+    ums_member.status,
+    ums_member.create_time,
+    ums_member.icon,
+    ums_member.gender,
+    ums_member.birthday,
+    ums_member.city,
+    ums_member.job,
+    ums_member.personalized_signature,
+    ums_member.source_type,
+    ums_member.integration,
+    ums_member.growth,
+    ums_member.luckey_count,
+    ums_member.history_integration
+    FROM
+    ums_member
+    </select>
 </mapper>
