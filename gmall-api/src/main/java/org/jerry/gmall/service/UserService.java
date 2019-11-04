@@ -1,7 +1,7 @@
-package org.jerry.gmall.user.service;
+package org.jerry.gmall.service;
 
-import org.jerry.gmall.user.bean.UmsMember;
-import org.jerry.gmall.user.bean.UmsMemberReceiveAddress;
+import org.jerry.gmall.bean.UmsMember;
+import org.jerry.gmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 
