@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: gmall-user-web
+  dubbo:
+    application:
+      name: userWeb
+    registry:
+      protocol: zookeeper
+      address: 47.93.32.124:2181
+    base-package: org.jerry.gmall
+    protocol:
+      name: dubbo
+    consumer:
+      timeout: 10000
+      check: false
+server:
+  port: 8081
+
+
+

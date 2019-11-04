@@ -4,6 +4,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -13,7 +14,7 @@ import java.util.Date;
  * @create 2019-10-31 15:25
  */
 @Table(name = "ums_member")
-public class UmsMember {
+public class UmsMember implements Serializable {
 
     /**
      * id
