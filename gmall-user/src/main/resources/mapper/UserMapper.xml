@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="org.jerry.gmall.user.mapper.UserMapper">
-    <select id="selectAllUser" resultType="org.jerry.gmall.user.bean.UmsMember">
+    <select id="selectAllUser" resultType="org.jerry.gmall.bean.UmsMember">
     SELECT
     ums_member.id,
     ums_member.member_level_id,

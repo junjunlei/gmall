@@ -1,8 +1,8 @@
 package org.jerry.gmall.user.controller;
 
-import org.jerry.gmall.user.bean.UmsMember;
-import org.jerry.gmall.user.bean.UmsMemberReceiveAddress;
-import org.jerry.gmall.user.service.UserService;
+import org.jerry.gmall.bean.UmsMember;
+import org.jerry.gmall.bean.UmsMemberReceiveAddress;
+import org.jerry.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

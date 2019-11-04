@@ -1,13 +1,12 @@
 package org.jerry.gmall.user.service.impl;
 
-import org.jerry.gmall.user.bean.UmsMember;
-import org.jerry.gmall.user.bean.UmsMemberReceiveAddress;
+import org.jerry.gmall.bean.UmsMember;
+import org.jerry.gmall.bean.UmsMemberReceiveAddress;
+import org.jerry.gmall.service.UserService;
 import org.jerry.gmall.user.mapper.UmsMemberReceiveAddressMapper;
 import org.jerry.gmall.user.mapper.UserMapper;
-import org.jerry.gmall.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 

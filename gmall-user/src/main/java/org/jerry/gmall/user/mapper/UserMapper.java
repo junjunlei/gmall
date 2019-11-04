@@ -1,7 +1,6 @@
 package org.jerry.gmall.user.mapper;
-
 import org.apache.ibatis.annotations.Mapper;
-import org.jerry.gmall.user.bean.UmsMember;
+import org.jerry.gmall.bean.UmsMember;
 
 import java.util.List;
 
